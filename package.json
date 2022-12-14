@@ -1,12 +1,15 @@
 {
   "name": "hexlet",
-"type": "module",
-"version": "1.0.0",
+  "type": "module",
+  "version": "1.0.0",
   "description": "hexlet lesson npm package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alsu.ibragimova@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
